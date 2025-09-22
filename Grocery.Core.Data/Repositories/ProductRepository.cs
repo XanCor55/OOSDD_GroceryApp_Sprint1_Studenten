@@ -8,7 +8,7 @@ namespace Grocery.Core.Data.Repositories
         private readonly List<Product> products;
         public ProductRepository()
         {
-            products = [
+            products = 
                 /* 
                  * initieer de lijst met 4 nieuwe producten: 
                  * Melk[voorraad 300], 
@@ -20,7 +20,7 @@ namespace Grocery.Core.Data.Repositories
         }
         public List<Product> GetAll()
         {
-            return []; //wijzig dit in de gemaakte lijst uit de constructo
+            return products; //wijzig dit in de gemaakte lijst uit de constructor
         }
 
         public Product? Get(int id)

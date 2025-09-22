@@ -4,7 +4,7 @@
              x:Class="Grocery.App.Views.GroceryListsView"
              xmlns:vm="clr-namespace:Grocery.App.ViewModels"
              xmlns:m="clr-namespace:Grocery.Core.Models;assembly=Grocery.Core"
-             Title="GroceryListsView">
+             Title="GroceryListsView_Testen_met_github_voor_commit">
     <Shell.TitleView>
         <Grid>
             <Label Text="Boodschappenlijsten" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" />
